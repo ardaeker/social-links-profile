@@ -9,8 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        white: "var(--color-white)",
+        black: "var(--color-black)",
+        gray: "var(--color-gray)",
+        "dark-gray": "var(--color-dark-gray)",
+        "neon-gray": "var(--color-neon-gray)",
+        "neon-green": "var(--color-neon-green)",
+      },
+      fontFamily: {
+        inter: "var(--font-inter)",
+      },
+      maxWidth: {
+        card: "var(--max-width-card)",
+      },
+      spacing: {
+        "22": "5.5rem",
       },
     },
   },

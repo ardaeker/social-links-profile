@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Colors */
+    --color-white: hsla(0, 0%, 100%, 1);
+    --color-black: hsla(0, 0%, 8%, 1);
+    --color-gray: hsla(0, 0%, 20%, 1);
+    --color-dark-gray: hsla(0, 0%, 12%, 1);
+    --color-neon-green: hsla(75, 94%, 57%, 1);
+
+    /* The maximum width of a card. */
+    --max-width-card: 24rem;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--color-black);
+  }
+}
+
+@layer utilities {
+  /* 
+    Utility class to set a minimum height of 100% of the viewport height.
+    This is for which browsers that do not support the `100svh` unit.
+  */
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+}
