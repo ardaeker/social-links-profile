@@ -38,7 +38,7 @@ export default function Page() {
             </p>
           </div>
           <p className="text-sm leading-[1.3125rem] text-white">
-            "{user.role}"
+            &quot;{user.role}&quot;
           </p>
           <nav>
             <ul className="space-y-4">
