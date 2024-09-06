@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Page](https://www.frontendmentor.io/solutions/social-links-profile-slcKgGvBTc)
-- Live Site URL: [Deployed on Vercel](fm-2024-social-links-profile.vercel.app)
+- Live Site URL: [Deployed on Vercel](https://fm-2024-social-links-profile.vercel.app)
 
 ## My process
 
