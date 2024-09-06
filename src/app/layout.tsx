@@ -4,7 +4,6 @@ import "@/styles/tailwind.css";
 
 const inter = localFont({
   src: "./fonts/Inter-VariableFont_slnt,wght.ttf",
-  variable: "--font-inter",
 });
 
 export const viewport: Viewport = {
@@ -52,7 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }

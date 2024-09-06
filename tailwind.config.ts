@@ -16,9 +16,6 @@ const config: Config = {
         "neon-gray": "var(--color-neon-gray)",
         "neon-green": "var(--color-neon-green)",
       },
-      fontFamily: {
-        inter: "var(--font-inter)",
-      },
       maxWidth: {
         card: "var(--max-width-card)",
       },
