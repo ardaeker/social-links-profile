@@ -30,7 +30,7 @@ export default function Page() {
             />
           </picture>
           <div className="space-y-1">
-            <h2 className="text-2xl font-bold leading-9 text-white">
+            <h2 className="text-2xl font-semibold leading-9 text-white">
               {user.name}
             </h2>
             <p className="text-neon-green text-sm font-bold leading-[1.3125rem]">
